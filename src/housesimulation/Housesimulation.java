@@ -23,10 +23,8 @@ public class Housesimulation {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800,500);
         House house=new House();
+                
         
-        JPanel flower = new Flower();
-        flower.setBackground(Color.white);
-        frame.add(flower);
         frame.add(house);
         frame.setVisible(true);
                 

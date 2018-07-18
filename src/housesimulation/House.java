@@ -56,22 +56,7 @@ public class House extends JPanel {
        
   }
   
-  //method to generate color in rgba
-  public Color rrandomColor(String type){
-//       int length=(int)(Math.random()*100);
-//       String hex = Integer.toHexString(length);
-//      float rand=(float) Math.random();
-//       Color newcolor=findColor(type,rand);
-        int R = (int)(Math.random()*256);
-        int G = (int)(Math.random()*256);
-        int B= (int)(Math.random()*256);
-        Color newcolor = new Color(R, G, B);
-      
-      
-      
-      return newcolor;
-  }
-  
+
   //method to generate random color
   public Color randomColor(String type){
 
@@ -178,13 +163,13 @@ public class House extends JPanel {
   }
   /** Converts an x-coordinate from a 200-width screen to the actual width. */
   private int toScreenX(int x) {
-//    return Math.round(x * getWidth() / 200f);
+
       return x;
   }
 
   /** Converts an y-coordinate from a 200-width screen to the actual width. */
   private int toScreenY(int y) {
-//    return Math.round(y * getHeight() / 200f);
+
       return y;
   }
   
